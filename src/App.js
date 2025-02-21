@@ -1,14 +1,13 @@
-import React from 'react';
-import Title from './comps/Title';
+function Title() {
+  return <h1>Hello, World!</h1>;
+}
 
-function App () {
+function App() {
   return (
     <div className="App">
-     <Title/>
+      <Title/>
     </div>
   );
 }
 
 export default App;
-    
-
